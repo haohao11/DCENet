@@ -45,3 +45,10 @@ If you find our work useful for you, please cite it as:
   year={2020}
 }
 ```
+
+#### Update the errors in the inD experiments
+First, many credits to Angelos Toytziaridis for helping me discover the evaluation error in the experiments on the inD dataset.
+The empirical results have been recalculated and summarized in https://github.com/haohao11/DCENet/tree/master/Extend_inD/results.
+The quantitative results may differ significantly from the ones reported in the original papers, but the comparison with the baselines is still valid.
+This error does not impact the qualitative results.
+If you would like to benchmark your quantitative results to AMENet or DCENet on the inD dataset, you can refer to the updated results or run the experiments (https://github.com/haohao11/DCENet/tree/master/Extend_inD) with the saved weights or train the models yourself.
