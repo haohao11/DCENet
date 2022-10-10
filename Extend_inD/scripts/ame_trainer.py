@@ -70,8 +70,8 @@ def main():
     
 
     # # specify the directory for training and challenge data   
-    #train_paths= sorted(glob.glob("../inD-dataset-v1.0/trajectories/*.txt"))
-    train_paths= [pathlib.Path(__file__).parent / '../trajectories_InD' / f"{i:02}_Trajectories.txt" for i in range(33)]
+    train_paths= sorted(glob.glob("../inD-dataset-v1.0/trajectories/*.txt"))
+    
          
     # Process the data
     for path in train_paths:
