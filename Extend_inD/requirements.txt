@@ -1,0 +1,11 @@
+Python==3.7
+conda install tensorflow-estimator=2.1 h5py=2.10.0 
+conda activate MDN 
+conda install -c conda-forge tensorflow=2.1 
+conda install keras=2.3 
+conda install -c conda-forge tensorflow-probability=0.8.0 
+pip install keras-multi-head=0.24
+conda install -c conda-forge matplotlib 
+conda install -c anaconda scikit-learn 
+conda install pydot 
+conda install pydotplus
