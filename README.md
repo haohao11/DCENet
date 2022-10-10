@@ -64,3 +64,4 @@ The empirical results have been recalculated and summarized in https://github.co
 The quantitative results may differ significantly from the ones reported in the original papers, but the comparison with the baselines is still valid.
 This error does not impact the qualitative results.
 If you would like to benchmark your quantitative results to AMENet or DCENet on the inD dataset, you can refer to the updated results or run the experiments (https://github.com/haohao11/DCENet/tree/master/Extend_inD) with the saved weights or train the models yourself.
+Please note that due to the sampling process of the latent variables, the test results using the provided weights may slighly vary from the results listed in the folder. 
