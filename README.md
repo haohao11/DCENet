@@ -38,11 +38,23 @@ You also can train from sratch by /scripts/trainer.py
 If you find our work useful for you, please cite it as:
 ----
 ```html
-@article{cheng2020exploring,
-  title={Exploring Dynamic Context for Multi-path Trajectory Prediction},
+@inproceedings{cheng2021exploring,
+  title={Exploring dynamic context for multi-path trajectory prediction},
   author={Cheng, Hao and Liao, Wentong and Tang, Xuejiao and Yang, Michael Ying and Sester, Monika and Rosenhahn, Bodo},
-  journal={arXiv preprint arXiV:2010.16267},
-  year={2020}
+  booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={12795--12801},
+  year={2021},
+  organization={IEEE}
+}
+
+@article{cheng2021amenet,
+  title={Amenet: Attentive maps encoder network for trajectory prediction},
+  author={Cheng, Hao and Liao, Wentong and Yang, Michael Ying and Rosenhahn, Bodo and Sester, Monika},
+  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume={172},
+  pages={253--266},
+  year={2021},
+  publisher={Elsevier}
 }
 ```
 
