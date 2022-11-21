@@ -48,7 +48,7 @@ def main():
     parser.add_argument('--beta', type=float, default=0.65, help='Loss weight')
     parser.add_argument('--query_dim', type=int, default=2, help='The dimension of the query')
     parser.add_argument('--keyvalue_dim', type=int, default=2, help='The dimension for key and value')    
-    parser.add_argument('--train_mode', type=bool, default=True, help='This is the training mode')
+    parser.add_argument('--train_mode', action='store_false', default=True, help='This is the training mode')
     parser.add_argument('--train_set', type=str, choices=['Train'], default='sharedspaces', 
                         help='This is the directories for the training data')
     parser.add_argument('--challenge_set', type=str, choices=['Test'], default='Test', 
